@@ -1,0 +1,125 @@
+/* --------------Media Quieries for Index Page--------------------- */
+@media only screen and (max-width: 750px){
+
+    .container{
+    display: flex;
+    align-items: center;
+}
+
+/* ----------------Responsive Index Navbar---------- */
+.navbar-center {
+  margin-left: 2%;
+}
+.navbar-center ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar-center ul li a span{
+    display: none;
+}
+
+.search-bar{
+    width: 20vw;
+}
+@media only screen and (max-width: 500px){
+    .search-bar input::placeholder{
+        opacity: 0;
+    }
+    .search-bar {
+        margin: 0;
+    }
+    .search-bar input{
+        width: 100%;
+        display: inline-block;
+        overflow: hidden;
+    }
+}
+
+.logo{
+    margin-right: 10%;
+}
+.logo img{
+    margin-right: 0;
+}
+
+
+/* ------------------Responsive Index Body-------------- */
+  .left-sidebar, .right-sidebar, .main-sidebar, .profile-main, .profile-left-sidebar{
+    min-width: 100%;
+    flex-basis: 100%;
+  }
+  .left-sidebar{
+    position: relative;
+    top: unset;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .right-sidebar{
+    position: relative;
+    width: 100%;
+    top: 0px;
+  }
+  .container a{
+    font-size: 16px;
+  }
+  .profile-container-inner .profile-pic-container{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: -50px 0 20px 0;
+  border: 3px solid #fff;
+  position: relative;
+  z-index: 1;
+  background: url(images/user-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .profile-container-inner .user-name{
+    font-size: 25px;
+  }
+  .container p{
+    font-size: 17px;
+}
+  .container h1{
+    font-size: 20px;
+}
+  .container small{
+    font-size: 17px;
+}
+  .container h3{
+    font-size: 17px;
+  }
+  .container ul li{
+    font-size: 17px;
+  }
+  .container span{
+    font-size: 16px;
+  }
+  .sidebar-news a{
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+  .container b{
+    font-size: 16px;
+  }
+  .container .U-may-know-section h2{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .container h3{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .user-info h3{
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .post-activity-link span{
+    display: none;  
+    }
+   .create-post-links span{
+       display: none;  
+   }
+}
